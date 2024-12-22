@@ -3,7 +3,7 @@ slug: community
 title: Community
 authors: [chris]
 ---
-A design pattern is a standard (named) solution to a common software design problem. It's like an [opening](https://en.wikipedia.org/wiki/Chess_opening) in chess. The French Defense, for example, is a standard solution for the problem of [e4](https://en.wikibooks.org/wiki/Chess_Opening_Theory/1._e4). MonoLISA is a new design pattern in the sense that it's a standard (named) solution to the common problem of repositories needing to change often.
+A design pattern is a standard (named) solution to a common software design problem. It's like an [opening](https://en.wikipedia.org/wiki/Chess_opening) in chess. The French Defense, for example, is a standard solution for the problem of [e4](https://en.wikibooks.org/wiki/Chess_Opening_Theory/1._e4). MonoLISA is a new design pattern in the sense that it's a named solution to the common problem of repositories needing to change often.
 
 
 ### Background
