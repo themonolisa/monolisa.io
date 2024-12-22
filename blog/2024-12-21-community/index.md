@@ -1,7 +1,9 @@
 ---
 slug: community
 title: Community
+description: The launch of monolisa.io
 authors: [chris]
+image: "https://monolisa.blob.core.windows.net/blog/mona-lisa-crowd.jpg"
 ---
 ![Mona Lisa crowd](https://monolisa.blob.core.windows.net/blog/mona-lisa-crowd.jpg)
 
