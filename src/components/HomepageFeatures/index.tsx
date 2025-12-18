@@ -12,18 +12,18 @@ const Logo = require('@site/static/img/monolisa.svg').default;
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Grasp',
+    title: 'Five core concepts',
     description: (
       <>
-        You can count MonoLISA's concepts on your hand: Monorepo practice, Layered Libraries, Interface Segregation, Single Responsibilities, and Agile Architecture.
+        MonoLISA is a mnemonic for five core concepts: monorepo practice, layered libraries, interface segregation, single responsibilities, and agile architecture.
       </>
     ),
   },
   {
-    title: 'Generic',
+    title: 'Stack-agnostic',
     description: (
       <>
-        MonoLISA is a design pattern. As a result, you can apply it to repositories of virtually any stack, such as TypeScript, .NET, Java, Python, etc.
+        MonoLISA is an architectural pattern. It applies to repositories in virtually any stack, from TypeScript to .NET.
       </>
     ),
   },
@@ -31,7 +31,7 @@ const FeatureList: FeatureItem[] = [
     title: 'Battle Tested',
     description: (
       <>
-        MonoLISA has been tried and tested since 2021. It's been giving engineers the joy of coding in clean and agile repositories.
+        MonoLISA has been battle-tested since 2021. It scales from small teams to large codebases.
       </>
     ),
   },

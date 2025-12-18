@@ -33,7 +33,7 @@ export default function Home(): JSX.Element {
   return (
     <Layout
       title="Home"
-      description="The art of crafting clean repositories">
+      description="The art of structuring clean, evolvable repos">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

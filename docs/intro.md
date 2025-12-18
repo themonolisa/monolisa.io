@@ -15,4 +15,4 @@ MonoLISA is a mnemonic for **monorepo** practice with:
 * **A**gile Architecture
     
 
-MonoLISA is a pattern for crafting code repositories that are easy to understand, change, and deploy to infrastructure in various ways.
+MonoLISA is an architectural pattern for structuring repositories around Clean Code principles so the codebase is easy to understand, change, and deploy in multiple ways.
