@@ -69,8 +69,9 @@ const config: Config = {
   ],
 
   themeConfig: {
-    // Replace with your project's social card
-    image: 'img/logo.svg',
+  // Social card image used by Open Graph when links are shared
+  // Must be a raster image (png/jpg) for best compatibility
+  image: 'img/monolisa-logo.png',
     navbar: {
       title: 'MonoLISA',
       logo: {
