@@ -35,7 +35,7 @@ Create libraries for [actors](https://en.wikipedia.org/wiki/Actor_(UML)) within 
 
 ### Actors
 
-An actor is a role a user plays the moment they act on the system.
+An actor is a role an entity plays when it interacts with the system. The entity may be a human or an external system.
 
 For example, if you are developing an email app, the user could be seen as an ‘inbox viewer’ actor when they view the inbox and a ‘draft editor’ when they write an email.
 
