@@ -7,7 +7,7 @@ image: "https://monolisa.blob.core.windows.net/blog/mona-lisa-crowd.jpg"
 ---
 ![Mona Lisa crowd](https://monolisa.blob.core.windows.net/blog/mona-lisa-crowd.jpg)
 
-A design pattern is a standard (named) solution to a common software design problem. It's like an [opening](https://en.wikipedia.org/wiki/Chess_opening) in chess. The French Defense, for example, is a standard solution for the problem of [e4](https://en.wikibooks.org/wiki/Chess_Opening_Theory/1._e4). MonoLISA is a new design pattern in the sense that it's a named solution to the common problem of repositories needing to change often.
+An architectural pattern is a standard (named) solution to a common software architecture problem. It's like an [opening](https://en.wikipedia.org/wiki/Chess_opening) in chess. The French Defense, for example, is a standard solution for the problem of [e4](https://en.wikibooks.org/wiki/Chess_Opening_Theory/1._e4). MonoLISA is an architectural pattern in the sense that it's a named solution to the common problem of repositories needing to change often.
 
 ### Background
 My peers and I worked with a plethora of repositories (polyrepos) in 2019. Some of us entertained the idea of monorepos. In 2020, we started playing with [Nx](https://nx.dev) monorepos. We found it made our development much more efficient. As a result, we decided to double down and pivot to monorepos.
@@ -34,4 +34,4 @@ A MonoLISA [article](https://chrisfouche.com/monolisa) was published on my blog 
 This website (monolisa.io) is the next move towards a MonoLISA community. It's a space where open-minded individuals can learn about and discuss MonoLISA.
 
 ### Conclusion
-MonoLISA is a design pattern that cultivates repositories for continuous change. It's the art of crafting clean repositories. We drew its outlines. May an international community (perhaps including you) colour it in and give it texture. Let's find out if 'she' has what it takes to become a software influencer!
+MonoLISA is an architectural pattern that cultivates repositories for continuous change. It's the art of crafting Clean Code repositories. We drew its outlines. May an international community (perhaps including you) colour it in and give it texture. Let's find out if 'she' has what it takes to become a software influencer!

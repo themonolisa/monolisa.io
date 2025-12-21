@@ -6,7 +6,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'MonoLISA',
-  tagline: 'The art of structuring clean, evolvable repos',
+  tagline: 'The art of crafting Clean Code repositories',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
