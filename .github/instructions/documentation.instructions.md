@@ -1,6 +1,6 @@
 
 ---
-applyTo: "docs/**/*.md"
+applyTo: "**"
 ---
 # Documentation
 

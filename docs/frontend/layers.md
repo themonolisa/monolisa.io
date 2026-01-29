@@ -8,9 +8,9 @@ import TabItem from '@theme/TabItem';
 
 # Frontend Layers
 
-Let's consider the L of Mono**L**ISA for frontends: Layered Libraries.
+Let's explore how to layer (the L of Mono**L**ISA) frontends.
 
-We recommend the following layers for frontend applications:
+Battle-tested layers for frontend applications:
 * **User Interface**
 * **Data Access**
 * **Implementations**
@@ -19,7 +19,7 @@ We recommend the following layers for frontend applications:
 The User Interface (UI) Layer contains components that render the user interface.
 
 ### Presentational Components
-The UI layer contains presentational or [dumb](https://chatgpt.com/share/696d587e-22c4-800d-83d3-90400e12ac31) components. They don’t know where data comes from or goes to. They render the user interface and raise events when users interact. 
+The UI layer contains presentational (dumb) components. They don’t know where data comes from or goes to. They render the user interface and raise events when users interact. 
 
 ### Interface Segregation
 UI components must adhere to the Interface Segregation Principle (ISP).  This is where the I of MonoL**I**SA comes in.
@@ -210,7 +210,7 @@ export const pizzaDataService = {
 </TabItem>
 </Tabs>
 
-Notice how the `Pizza` interface contains all fields returned by the BFF, including many that the UI layer doesn't need (like `ingredients`, `description`, `isVegetarian`, etc.). The Implementation Layer will map this to the simpler `PizzaDisplay` interface that the UI components require.
+Notice how the `Pizza` interface contains all fields returned by the BFF, including many that the UI layer doesn't need (like `ingredients`, `description`, `isVegetarian`, etc.). The Implementations Layer will map this to the simpler `PizzaDisplay` interface that the UI components require.
 
 ### Constraints
 Libraries of the Data Access layer:
@@ -218,19 +218,19 @@ Libraries of the Data Access layer:
 - May not have any UI components.
 - May not depend on the other layers.
 
-## Implementation Layer
+## Implementations Layer
 
-The Implementation Layer is responsible for orchestrating data flow between the UI and Data Access layers.
+The Implementations Layer is responsible for orchestrating data flow between the UI and Data Access layers.
 
 It 'implements' the UI and data access services. It acts as a bridge between the UI components and the data access services or functions. In particular, it maps from the BFF's models to the UI's interfaces. And vice versa.
 
 ### Container components
 
-The implementation layer has container (smart) components. They know where data comes from and where it goes to. They fetch data from the Data Access layer, handle business logic, and pass data to presentational components in the UI layer.
+The Implementations layer has container (smart) components. They know where data comes from and where it goes to. They fetch data from the Data Access layer, handle business logic, and pass data to presentational components in the UI layer.
 
 ### Example
 
-Here's an example of how the implementation layer works:
+Here's an example of how the Implementations layer works:
 
 <Tabs groupId="framework">
 <TabItem value="angular" label="Angular">
@@ -347,7 +347,7 @@ Notice how the container component:
 - Passes only the necessary data to the presentational `PizzaCard` component
 
 ### Constraints
-Libraries of the Implementation layer:
+Libraries of the Implementations layer:
 - May not have http calls or direct BFF communication.
 - May only have container (smart) components.
 - Must delegate HTML rendering to the UI layer.
