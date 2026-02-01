@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Introduction
 
-MonoLISA is a mnemonic for **monorepo** practice with:
+MonoLISA is a mnemonic for **mono**repo practice with:
 
 * **L**ayered Libraries
     
