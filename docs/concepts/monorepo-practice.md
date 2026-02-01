@@ -18,7 +18,13 @@ Place libraries in a dedicated folder, such as 'libs'.
 
 ## Applications
 
-Applications in MonoLISA are the launch or deployment vehicles of libraries. They are shells (with little to no logic) that string (or bundle) libraries together for use. An executable is an example of an app.
+They are shells (with little to no logic) that string (or bundle) libraries together for use. An executable is an example of an app.
+
+Applications in MonoLISA are the deployment vehicles for libraries.
+
+They wire libraries together, apply runtime configuration, and produce deployable artefacts.
+
+Applications are deployed to infrastructure. Libraries execute within them.
 
 Place apps in a dedicated folder, such as 'apps'.
 
